@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+.container {
+  background-color: #080c20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px;
+  gap: 30px;
+}
+
+.first-container-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-style {
+  width: 120px;
+  height: 35px;
+  padding: 40px;
+}
+
+.hero-style {
+  width: 450px;
+}
+
+.get-paid-style {
+  font-weight: 800;
+  font-family: Manrope;
+  color: white;
+  width: 327px;
+  margin-left: 50px;
+}
+
+.love-style {
+  font-family: Manrope;
+  font-size: 32px;
+  color: #3ee9e5;
+  font-weight: 800;
+}
+
+.paragraphe-style {
+  color: #777f98;
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  width: 327px;
+}
+
+.icon-scroll-style {
+  width: 26px;
+  height: 42px;
+}
+
+.second-container-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 144px;
+}
+
+.illustration-style {
+  width: 120px;
+  height: 124px;
+}
+
+.small-title {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24.59px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 32px;
+}
+
+.icon-free-style {
+  width: 40px;
+  align-self: self-start;
+  transform: translateY(46px);
+  margin-left: 18px;
+}
+.third-container-style {
+  background-color: #093f68;
+  width: 327px;
+  margin-left: 15px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  height: 459px;
+}
+
+.dip-style {
+  color: white;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 25px;
+  text-align: left;
+}
+
+.free-style {
+  font-family: Manrope;
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+}
+
+.check-style {
+  width: 11.36px;
+  height: 8.1px;
+  color: #3ee9e5;
+}
+
+.check-mark-style {
+  display: flex;
+  flex-direction: column;
+  align-self: self-start;
+  gap: 15px;
+  margin-top: 9px;
+}
+
+.check-list-style {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-top: -87px;
+  margin-left: 18px;
+  gap: 5px;
+}
+
+.second-check-style {
+  color: #080c20;
+  width: 11.36px;
+  height: 8.1px;
+}
+
+.list-style {
+  color: white;
+  list-style-type: none;
+}
+
+.second-list-style {
+  list-style-type: none;
+  color: #080c20;
+}
+
+.fourth-container-style {
+  background-color: #3ee9e5;
+  width: 327px;
+  margin-left: 15px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  height: 481px;
+}
+
+.end-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.end-header-style {
+  width: 328px;
+  height: 67px;
+  color: white;
+  font-family: Manrope;
+  text-align: center;
+}
+
+#email-adress {
+  width: 327px;
+  height: 48px;
+  background-color: #093f68;
+  border: none;
+  border-radius: 10px;
+}
+
+#button {
+  width: 327px;
+  height: 48px;
+  background-color: #3ee9e5;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 800;
+}
