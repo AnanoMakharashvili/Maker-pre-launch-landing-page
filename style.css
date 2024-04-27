@@ -35,6 +35,12 @@
   margin-left: 50px;
 }
 
+.get-paid-for-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .love-style {
   font-family: Manrope;
   font-size: 32px;
@@ -69,6 +75,16 @@
   height: 124px;
 }
 
+.illustration-one-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.illustration-two-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .small-title {
   font-family: Manrope;
   font-size: 18px;
@@ -89,7 +105,7 @@
   background-color: #093f68;
   width: 327px;
   margin-left: 15px;
-  padding: 24px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   height: 459px;
@@ -154,7 +170,7 @@
   background-color: #3ee9e5;
   width: 327px;
   margin-left: 15px;
-  padding: 24px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   height: 481px;
@@ -190,4 +206,57 @@
   border-radius: 10px;
   font-size: 15px;
   font-weight: 800;
+}
+
+.hero-desktop-right-style {
+  display: none;
+}
+
+.line-style {
+  display: none;
+}
+
+.hero-desktop-left-style {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .hero-style {
+    display: none;
+  }
+
+  .hero-desktop-right-style {
+    display: block;
+  }
+
+  .line-style {
+    display: block;
+  }
+
+  .hero-desktop-left-style {
+    display: block;
+  }
+
+  .illustration-tablet-style {
+    display: flex;
+    gap: 80px;
+  }
+
+  .get-paid-for-style {
+    margin-top: -383px;
+  }
+  .paragraphe-style {
+  }
+
+  .second-container-style {
+    gap: 20px;
+  }
+  .illustration-one-style {
+    flex-direction: row;
+  }
+  .illustration-two-style {
+    flex-direction: row;
+    align-self: flex-start;
+    margin-left: -100px;
+  }
 }
