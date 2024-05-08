@@ -238,9 +238,6 @@
   display: none;
 }
 
-.footer-background {
-  display: none;
-}
 @media (min-width: 768px) {
   .hero-style {
     display: none;
@@ -311,10 +308,6 @@
   .input-style {
     flex-direction: row;
   }
-
-  .footer-background {
-    display: none;
-  }
 }
 @media (min-width: 1024px) {
   .get-paid-style {
@@ -359,9 +352,5 @@
     font-family: Manrope;
     font-size: 12px;
     font-weight: 400;
-  }
-
-  .footer-background {
-    display: block;
   }
 }
