@@ -2,6 +2,12 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
   background-color: #080c20;
   display: flex;
@@ -321,6 +327,7 @@
   .second-container-style {
     flex-direction: row;
     padding: 203px;
+    gap: 125px;
   }
 
   .paragraphe-two-style {
